@@ -10,6 +10,10 @@ Automatically copies the password (first line) to the clipboard.
 Prints out the url and login name.
 
 ```
+[user@host ~]$ pass show vimeo.com 
+secret
+url: https://vimeo.com
+login: user.name@gmail.com
 [user@host ~]$ pass open vimeo.com 
 Opening site vimeo.com
 Copied vimeo.com to clipboard. Will clear in 45 seconds.
