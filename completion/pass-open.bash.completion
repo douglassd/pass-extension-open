@@ -1,7 +1,7 @@
 # Completion for bash
 
 # include completion logic from pass
-source /usr/local/etc/bash_completion.d/pass
+source $BASH_COMPLETION_DIR/pass
 
 _pass_open() {
   COMPREPLY=()
